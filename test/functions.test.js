@@ -194,18 +194,18 @@ test('return last item in an array, regardless of length', (expect) => {
     const actual = getLastItem(['red', 'orange', 'yellow']);
 
     expect.equal(actual, expected);
-    /*
+    
 
-    const expected2 = ;
-    const actual2 = ;
+    const expected2 = 'cat';
+    const actual2 = getLastItem(['green', 'indigo', 'violet', 'cat']);
 
     expect.equal(actual2, expected2);
 
-    const expected3 = ;
-    const actual3 = ;
+    const expected3 = 6;
+    const actual3 = getLastItem([0, 1, 2, 3, 4, 5, 6]);
     
-    expect.equal(actual3, expected3, '_______');
-    */
+    expect.equal(actual3, expected3, 'return last item in an array');
+    
 });
 
 /*
