@@ -150,17 +150,17 @@ test('adds two numbers and returns value in a string announcing your lucky numbe
     const actual = makeLuckyGreeting(4, 2);
 
     expect.equal(actual, expected);
-/*
-    const expected2 = ;
-    const actual2 = ;
+
+    const expected2 = 'Hello! Your lucky number for the day is 42.';
+    const actual2 = makeLuckyGreeting(40, 2);
 
     expect.equal(actual2, expected2);
 
-    const expected3 = ;
-    const actual3 = ;
+    const expected3 = 'Hello! Your lucky number for the day is 99.';
+    const actual3 = makeLuckyGreeting(100, -1);
     
-    expect.equal(actual3, expected3, '_______');
-    */
+    expect.equal(actual3, expected3, 'announcing sum of numbers as lucky number for the day');
+
 });
 
 /*
