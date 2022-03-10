@@ -172,17 +172,17 @@ test('get second item in an array', (expect) => {
     const actual = getSecondItem(['kiwi', 'apple', 'orange', 'plum']);
 
     expect.equal(actual, expected);
-/*
-    const expected2 = ;
-    const actual2 = ;
+
+    const expected2 = 'lilac';
+    const actual2 = getSecondItem(['tulip', 'lilac', 'rose', 'lily']);
 
     expect.equal(actual2, expected2);
 
-    const expected3 = ;
-    const actual3 = ;
+    const expected3 = 'jupiter';
+    const actual3 = getSecondItem(['saturn', 'jupiter', 'mars', 'pluto']);
     
-    expect.equal(actual3, expected3, '_______');
-    */
+    expect.equal(actual3, expected3, 'returns second item from an array');
+
 });
 
 
