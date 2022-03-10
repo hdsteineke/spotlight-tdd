@@ -208,16 +208,17 @@ test('return last item in an array, regardless of length', (expect) => {
     
 });
 
+
+// getRandomNumber
+
+test('get random number', (expect) => {
+
+    const actual = getRandomNumber();
+    const expected = 0 || actual === 1 || actual === 2 || actual === 3 || actual === 4 || actual === 5;
+
+
+    expect.equal(expected, true,);
 /*
-//
-
-test('______', (expect) => {
-    const expected = ;
-
-    const actual = ;
-
-    expect.equal(actual, expected);
-
     const expected2 = ;
     const actual2 = ;
 
@@ -227,6 +228,6 @@ test('______', (expect) => {
     const actual3 = ;
     
     expect.equal(actual3, expected3, '_______');
+    */
 });
 
-*/
