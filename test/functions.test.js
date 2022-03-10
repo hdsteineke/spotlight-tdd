@@ -33,25 +33,21 @@ skip('this test should be skipped', (expect) => {
 
 
 
-// IMPORT MODULES under test here:
-/*
 
-test('', (expect) => {
-    const expected = ;
+test('this test should multiply a value by 7', (expect) => {
+    const expected = 49;
 
-    const actual = ;
+    const actual = multiplyBySeven(7);
 
     expect.equal(actual, expected);
 
-    const expected2 = ;
-    const actual2 = ;
+    const expected2 = -49;
+    const actual2 = multiplyBySeven(-7);
 
     expect.equal(actual2, expected2);
 
-    const expected3 = ;
-    const actual3 = ;
+    const expected3 = 0;
+    const actual3 = multiplyBySeven(0);
     
-    expect.equal(actual3, expected3, '_________');
+    expect.equal(actual3, expected3, 'multiplying a given argument by seven');
 });
-
-*/
