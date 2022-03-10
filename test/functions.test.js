@@ -128,16 +128,16 @@ test('return numbers as string', (expect) => {
 
     expect.equal(actual, expected);
 
-    /* const expected2 = ;
-    const actual2 = ;
+    const expected2 = '0325';
+    const actual2 = returnAsAString(0, 32, 5);
 
     expect.equal(actual2, expected2);
 
-    const expected3 = ;
-    const actual3 = ;
+    const expected3 = '45-3';
+    const actual3 = returnAsAString(4, 5, -3);
     
-    expect.equal(actual3, expected3, '_______');
-    */
+    expect.equal(actual3, expected3, 'returning numbers in a string');
+
 });
 
 
