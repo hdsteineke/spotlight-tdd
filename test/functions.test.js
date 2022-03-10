@@ -106,17 +106,16 @@ test('return as array', (expect) => {
 
     expect.deepEqual(actual, expected);
 
-    /* const expected2 = ;
-    const actual2 = ;
+    const expected2 = [9, 3, -5];
+    const actual2 = returnAsAnArray(9, 3, -5);
 
-    expect.equal(actual2, expected2);
+    expect.deepEqual(actual2, expected2);
 
-    const expected3 = ;
-    const actual3 = ;
+    const expected3 = [42, 0, 1];
+    const actual3 = returnAsAnArray(42, 0, 1);
     
-    expect.equal(actual3, expected3, '_______');
+    expect.deepEqual(actual3, expected3, 'return as an array');
 
-    */
 });
 
 //
