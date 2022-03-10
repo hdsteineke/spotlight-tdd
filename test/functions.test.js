@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { addExclamationPoints, 
+import { addExclamationPoints, multiplyBySeven, 
 } from '../functions.js';
 
 const { test, skip } = QUnit;
