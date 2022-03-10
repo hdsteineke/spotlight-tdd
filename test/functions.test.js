@@ -186,14 +186,15 @@ test('get second item in an array', (expect) => {
 });
 
 
-//
-/*
-test('______', (expect) => {
-    const expected = ;
+// getLastItem
 
-    const actual = ;
+test('return last item in an array, regardless of length', (expect) => {
+    const expected = 'yellow';
+
+    const actual = getLastItem(['red', 'orange', 'yellow']);
 
     expect.equal(actual, expected);
+    /*
 
     const expected2 = ;
     const actual2 = ;
@@ -204,9 +205,10 @@ test('______', (expect) => {
     const actual3 = ;
     
     expect.equal(actual3, expected3, '_______');
+    */
 });
 
-
+/*
 //
 
 test('______', (expect) => {
