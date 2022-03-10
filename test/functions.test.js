@@ -1,5 +1,5 @@
 // IMPORT MODULES under test here:
-import { addExclamationPoints, multiplyBySeven, multiplyBy12ThenHalve, divideThenMultiply, returnAsAnArray
+import { addExclamationPoints, multiplyBySeven, multiplyBy12ThenHalve, divideThenMultiply, returnAsAnArray, returnAsAString
 } from '../functions.js';
 
 const { test, skip } = QUnit;
@@ -118,16 +118,17 @@ test('return as array', (expect) => {
 
 });
 
-//
-/* 
-test('______', (expect) => {
-    const expected = ;
+// returnAsAString
 
-    const actual = ;
+
+test('return numbers as string', (expect) => {
+    const expected = '845';
+
+    const actual = returnAsAString(8, 4, 5);
 
     expect.equal(actual, expected);
 
-    const expected2 = ;
+    /* const expected2 = ;
     const actual2 = ;
 
     expect.equal(actual2, expected2);
@@ -136,8 +137,11 @@ test('______', (expect) => {
     const actual3 = ;
     
     expect.equal(actual3, expected3, '_______');
+    */
 });
 
+
+/*
 //
 
 test('______', (expect) => {
