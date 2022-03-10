@@ -218,16 +218,10 @@ test('get random number', (expect) => {
 
 
     expect.equal(expected, true,);
-/*
-    const expected2 = ;
-    const actual2 = ;
 
-    expect.equal(actual2, expected2);
-
-    const expected3 = ;
-    const actual3 = ;
-    
-    expect.equal(actual3, expected3, '_______');
-    */
 });
 
+/* I hope it's oka that I have just one test for this last one. 
+It was giving me trouble when I tried to make a second test that was different, 
+yet somehow needed to return true for every possible outcome.
+*/
